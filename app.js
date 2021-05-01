@@ -5,7 +5,7 @@ const io = require('socket.io')(server);
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('it worked');
+  res.send('the test worked ');
 });
 
 io.on('connection', socket => {

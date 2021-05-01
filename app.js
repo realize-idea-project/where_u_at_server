@@ -8,7 +8,7 @@ const port = 8080;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('the test worked ');
+  res.json('the test worked ');
 });
 
 io.on('connection', socket => {

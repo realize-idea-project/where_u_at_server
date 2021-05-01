@@ -13,7 +13,7 @@ io.on('connection', socket => {
 
   socket.on('send-location', (geolocation) => {
 
-    console.log('geolocation', geolocation);
+    console.log('geolocation22', geolocation);
     socket.emit('receive-location', geolocation);
     console.log('delevered');
   })
